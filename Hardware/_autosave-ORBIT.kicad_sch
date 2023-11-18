@@ -3459,7 +3459,7 @@
   (symbol (lib_id "Korean Hroparts Elec SPDT:K3-1270L-F1") (at 49.53 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2efde128-6ed5-4cbf-a84b-e5e1e23204a0)
-    (property "Reference" "BOOT1" (at 49.53 54.61 0)
+    (property "Reference" "BOOT0" (at 49.53 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BOOT0_SW" (at 49.53 44.45 0)
@@ -3482,7 +3482,7 @@
     (instances
       (project "ORBIT"
         (path "/3070b2ed-24f5-4699-8606-a941013223e7"
-          (reference "BOOT1") (unit 1)
+          (reference "BOOT0") (unit 1)
         )
       )
     )
@@ -3546,7 +3546,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 85.09 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35e65b2b-625b-4669-8a69-4bd53fb144e4)
-    (property "Reference" "RESET1" (at 86.36 39.37 90)
+    (property "Reference" "RESET" (at 86.36 39.37 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SW_Push" (at 86.36 41.91 90)
@@ -3566,7 +3566,7 @@
     (instances
       (project "ORBIT"
         (path "/3070b2ed-24f5-4699-8606-a941013223e7"
-          (reference "RESET1") (unit 1)
+          (reference "RESET") (unit 1)
         )
       )
       (project "mcudev"
@@ -3768,7 +3768,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 33.02 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 511dfe2e-769f-4540-bc2c-e1c5fe6f5e22)
-    (property "Reference" "USER1" (at 33.02 108.458 0)
+    (property "Reference" "USER" (at 33.02 108.458 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 33.02 110.998 0)
@@ -3788,7 +3788,7 @@
     (instances
       (project "ORBIT"
         (path "/3070b2ed-24f5-4699-8606-a941013223e7"
-          (reference "USER1") (unit 1)
+          (reference "USER") (unit 1)
         )
       )
       (project "mcudev"
@@ -5852,7 +5852,7 @@
   (symbol (lib_id "Korean Hroparts Elec SPDT:K3-1270L-F1") (at 257.81 22.606 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fee8ce6d-a841-41d1-989c-cbad36ace48c)
-    (property "Reference" "PWR1" (at 269.24 20.066 90)
+    (property "Reference" "PWR" (at 269.24 20.066 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PWR_SW" (at 266.7 22.606 90)
@@ -5875,7 +5875,7 @@
     (instances
       (project "ORBIT"
         (path "/3070b2ed-24f5-4699-8606-a941013223e7"
-          (reference "PWR1") (unit 1)
+          (reference "PWR") (unit 1)
         )
       )
     )
