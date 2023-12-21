@@ -3459,7 +3459,7 @@
   (symbol (lib_id "Korean Hroparts Elec SPDT:K3-1270L-F1") (at 49.53 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2efde128-6ed5-4cbf-a84b-e5e1e23204a0)
-    (property "Reference" "BOOT1" (at 49.53 54.61 0)
+    (property "Reference" "BOOT0" (at 49.53 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BOOT0_SW" (at 49.53 44.45 0)
@@ -3471,7 +3471,7 @@
     (property "Datasheet" "" (at 49.53 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part #" "C145858" (at 49.53 49.53 0)
+    (property "LCSC Part #" "C145857" (at 49.53 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7b7084df-1d8c-47e7-a8df-28fce9267343))
@@ -3482,7 +3482,7 @@
     (instances
       (project "ORBIT"
         (path "/3070b2ed-24f5-4699-8606-a941013223e7"
-          (reference "BOOT1") (unit 1)
+          (reference "BOOT0") (unit 1)
         )
       )
     )
@@ -3546,10 +3546,10 @@
   (symbol (lib_id "Switch:SW_Push") (at 85.09 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35e65b2b-625b-4669-8a69-4bd53fb144e4)
-    (property "Reference" "RESET1" (at 86.36 39.37 90)
+    (property "Reference" "SW1" (at 86.36 39.37 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SW_Push" (at 86.36 41.91 90)
+    (property "Value" "RESET" (at 86.36 41.91 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ" (at 80.01 40.64 0)
@@ -3566,7 +3566,7 @@
     (instances
       (project "ORBIT"
         (path "/3070b2ed-24f5-4699-8606-a941013223e7"
-          (reference "RESET1") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
       (project "mcudev"
@@ -3768,10 +3768,10 @@
   (symbol (lib_id "Switch:SW_Push") (at 33.02 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 511dfe2e-769f-4540-bc2c-e1c5fe6f5e22)
-    (property "Reference" "USER1" (at 33.02 108.458 0)
+    (property "Reference" "SW2" (at 33.02 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_Push" (at 33.02 110.998 0)
+    (property "Value" "USER" (at 33.02 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ" (at 33.02 111.76 0)
@@ -3788,7 +3788,7 @@
     (instances
       (project "ORBIT"
         (path "/3070b2ed-24f5-4699-8606-a941013223e7"
-          (reference "USER1") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
       (project "mcudev"
@@ -5855,7 +5855,7 @@
     (property "Reference" "PWR1" (at 269.24 20.066 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "PWR_SW" (at 266.7 22.606 90)
+    (property "Value" "PWR" (at 266.7 22.606 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Project Footprints:K3-1270L-F1" (at 257.81 22.606 0)
@@ -5864,7 +5864,7 @@
     (property "Datasheet" "" (at 257.81 22.606 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part #" "C145858" (at 257.81 22.606 90)
+    (property "LCSC Part #" "C145857" (at 257.81 22.606 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 25e95138-cbab-4e07-a6e4-dd4c209dac42))
